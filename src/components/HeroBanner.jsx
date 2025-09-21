@@ -20,9 +20,6 @@ export default function HeroBanner() {
         {/* Left copy */}
         <div>
           {/* Tagline chip (optional – from your profile) */}
-          <span className="inline-block rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold text-brand">
-            Restoring balance • Unleashing potential
-          </span>
 
           <h1 className="mt-4 text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl">
             Your <span className="text-brand">Wellness Partner</span> in Midrand
