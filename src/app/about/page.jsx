@@ -36,7 +36,7 @@ export default function AboutPage() {
           </h2>
           <p className="mt-4 text-slate-700">
             Arise Anew Wellness Group is a professional coaching and counselling organisation
-            headquartered in Midrand, South Africa. We help people navigate personal, emotional and
+            headquartered in Midrand, South Africa. We assist people navigate personal, emotional and
             social challenges through tailored programmes that restore balance, build resilience and
             empower purposeful living.
           </p>
@@ -44,7 +44,7 @@ export default function AboutPage() {
             Our practice is rooted in the belief that wellbeing is holistic — it goes beyond
             physical health to include emotional stability, mental clarity and healthy relationships.
             Through counselling, coaching and practical interventions, we meet clients where they are
-            and walk with them towards where they want to be.
+            and walk with them towards where they wish to be.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">

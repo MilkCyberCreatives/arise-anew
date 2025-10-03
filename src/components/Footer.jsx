@@ -1,3 +1,4 @@
+// src/components/Footer.jsx
 import Link from "next/link";
 import Image from "next/image";
 
@@ -29,12 +30,12 @@ export default function Footer() {
               <span className="sr-only">Arise Anew Wellness Group</span>
             </Link>
             <p className="mt-4 text-sm text-slate-600">
-              Restoring balance, unleashing potential from within. Coaching & counselling in Midrand and online across SA.
+              Restoring balance, unleashing potential from you. Coaching & counselling in Midrand and online across SA.
             </p>
 
             {/* Accreditations */}
             <p className="mt-4 text-xs font-semibold text-slate-700">
-              Accreditations: COMENSA • ASCHP • EAPSA
+              Accreditations: COMENSA • ASCHP
             </p>
           </div>
 
@@ -91,6 +92,7 @@ export default function Footer() {
               <Link
                 href="https://instagram.com/AriseAnew_wellnessgroup"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 shadow-sm hover:border-accent hover:text-brand"
               >
                 Instagram
@@ -101,9 +103,7 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="mt-10 border-t border-slate-200 pt-6 text-xs text-slate-500 sm:flex sm:items-center sm:justify-between">
-          <p>
-            © {year} Arise Anew Wellness Group. All rights reserved.
-          </p>
+          <p>© {year} Arise Anew Wellness Group. All rights reserved.</p>
           <p className="mt-2 sm:mt-0">
             <Link href="/privacy" className="hover:text-brand">Privacy</Link>
             <span className="mx-2">•</span>

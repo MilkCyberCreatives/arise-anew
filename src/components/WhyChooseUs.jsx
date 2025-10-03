@@ -1,3 +1,4 @@
+// src/components/WhyChooseUs.jsx
 "use client";
 
 import { ShieldCheck, HandHeart, Target, Clock, MapPin, Users } from "lucide-react";
@@ -59,10 +60,9 @@ export default function WhyChooseUs() {
             <div className="mt-8">
               <p className="text-sm font-semibold text-slate-700">Professional memberships & accreditations</p>
               <div className="mt-3 flex flex-wrap items-center gap-4">
-                {/* Drop these images into /public/ (PNG/SVG). Filenames are suggestions. */}
                 <AccreditationLogo src="/comensa.png" alt="COMENSA" label="COMENSA" />
                 <AccreditationLogo src="/aschp.png" alt="ASCHP" label="ASCHP" />
-                <AccreditationLogo src="/eapsa.png" alt="EAPSA" label="EAPSA" />
+                {/* Removed EAPSA */}
               </div>
             </div>
           </div>
@@ -106,7 +106,6 @@ export default function WhyChooseUs() {
 function AccreditationLogo({ src, alt, label }) {
   return (
     <div className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white/60 px-3 py-2">
-      {/* If you don't have the file yet, the Image will fail silently; the text label still shows */}
       <div className="relative h-6 w-6 overflow-hidden rounded">
         <Image src={src} alt={alt} fill className="object-contain" sizes="24px" />
       </div>
